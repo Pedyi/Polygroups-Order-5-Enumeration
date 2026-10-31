@@ -1,0 +1,60 @@
+HYBRID POLYGROUP SEARCH ENGINE for N=5
+Using 2 threads.
+[INFO] No checkpoint file found. Starting from scratch.
+=========================================================
+  PHASE 1: CONSTRUCTIVE SEARCH (Extending N < 5)
+=========================================================
+
+--- Extending from N=2 Polygroups ---
+
+--- Extending from N=3 Polygroups ---
+
+--- Extending from N=4 Polygroups ---
+
+--- Filtering Phase 1 Results (3664 candidates) ---
+
+--- PHASE 1 SUMMARY ---
+Found 1019 unique structures.
+Phase 1 duration: 0.454606s.
+
+Preparing for Phase 2: Generating N=4 subgroup keys for pruning...
+Generated 102 unique canonical keys for N=4 subgroups.
+
+=========================================================
+  PHASE 2: COMPLETION SEARCH (Finding Primitives)
+=========================================================
+Generated 3 representative inverse cases for N=5.
+
+--- Starting search for inverse case #1 of 3: 1_1_1_1 ---
+
+Case 1_1_1_1 finished. Found 63085 candidates. Filtering...
+
+[SUMMARY @ 4min] States checked: 573412221 | Candidates found: 63085 | Unique structures: 3372
+
+--- Starting search for inverse case #2 of 3: 2_1_1 ---
+
+Case 2_1_1 finished. Found 3720 candidates. Filtering...
+
+[SUMMARY @ 9min] States checked: 1118565583 | Candidates found: 66805 | Unique structures: 4347
+
+--- Starting search for inverse case #3 of 3: 2_2 ---
+
+Case 2_2 finished. Found 241 candidates. Filtering...
+
+[SUMMARY @ 13min] States checked: 1600476786 | Candidates found: 67046 | Unique structures: 4412
+
+--- PHASE 2 SUMMARY ---
+Phase 2 duration (this run): 799.109s.
+
+Self-check: 4412 tables verified, 0 failed.
+  inverse cycle type 1_1_1_1: 3013 polygroups
+  inverse cycle type 2_1_1: 1316 polygroups
+  inverse cycle type 2_2: 83 polygroups
+
+
+----------------------------------------
+           FINAL RESULTS (n=5)
+----------------------------------------
+Total non-isomorphic polygroups found: 4412
+Total structures checked (approx): 1600476786
+Total execution time: 799.661s
