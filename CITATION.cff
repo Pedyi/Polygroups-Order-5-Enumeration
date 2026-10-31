@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this data or code, please cite the paper below."
+title: "Polygroups of order 5: enumeration and classification (code and data)"
+type: software
+license: MIT
+repository-code: "https://github.com/Pedyi/Polygroups-Order-5-Enumeration"
+authors:
+  - family-names: Asadzadeh
+    given-names: Pedram
+  - family-names: Farshi
+    given-names: Mohammad
+  - family-names: Davvaz
+    given-names: Bijan
+preferred-citation:
+  type: article
+  title: "An Enumeration and Classification of Non-isomorphic Polygroups of Order 5: A Structural Analysis via Algebraic and Logical Generators"
+  journal: "Discussiones Mathematicae - General Algebra and Applications"
+  authors:
+    - family-names: Asadzadeh
+      given-names: Pedram
+    - family-names: Farshi
+      given-names: Mohammad
+    - family-names: Davvaz
+      given-names: Bijan
+  status: in-press
